@@ -1,0 +1,52 @@
+{% extends 'page.twig' %}
+
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">Number 6</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class ="ml-auto col-md-8 mr-auto">
+            <p id="q1q">6. <label for="q1q"><img id="imageq2" src="https://openclipart.org/image/2400px/svg_to_png/5316/molumen-red-and-green-renault-twingo-3.png" style="width:256px;height:200px;" /></label></p>            
+        </article>
+        <article class="ml-auto col-md-8 mr-auto">
+            <br />
+            <form action="{{base}}/t2complete" method="post">
+                <table class="table">
+                    <tr>       
+                        <th><p class="question">Size</p>        
+                        <ul class="answers">           
+                            <td><label for="q1a"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Circle_-_black_simple.svg" style="width:128px;height:128px;" /><input type="radio" name="q4" value="a" id="q4a"></label><br/>            
+                            <td><label for="q1b"><img id="imagea" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Circle_-_black_simple.svg" style="width:128px;height:128px;" /><input type="radio" name="q4" value="b" id="q4b"></label><br/>  
+                        </ul>  
+                    </tr> 
+                    <tr>
+                        <th><p class="question">Colour</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Disc_Plain_blue.svg" style="width:128px;height:128px;" /><input type="radio" name="q2" value="a" id="q2a"></label><br/>           
+                            <td><label for="q1b"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Disc_Plain_red.svg" style="width:128px;height:128px;" /><input type="radio" name="q2" value="b" id="q2b"></label><br/>            
+                            <td><label for="q1c"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/en/f/fb/Yellow_icon.svg" style="width:128px;height:128px;" /><input type="radio" name="q2" value="c" id="q2c"></label><br/>           
+                            <td><label for="q1c"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Disc_Plain_green.svg" style="width:128px;height:128px;" /><input type="radio" name="q2" value="d" id="q2d"></label><br/>       
+                        </ul> 
+                    </tr>
+                    <tr>       
+                        <th><p class="question">Object</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea3" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/White_toy_balloon.svg" style="width:128px;height:128px;" /><input type="radio" name="q3" value="a" id="q3a"></label><br/>            
+                            <td><label for="q1b"><img id="imagea2" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Little_Bear_Toy.svg" style="width:128px;height:128px;" /><input type="radio" name="q3" value="b" id="q3b"></label><br/>            
+                            <td><label for="q1c"><img id="imagea2" src="http://res.freestockphotos.biz/pictures/15/15685-illustration-of-a-red-cartoon-car-pv.png" style="width:128px;height:128px;" /><input type="radio" name="q3" value="c" id="q3c"></label><br/>  
+                        </ul> 
+                    </tr>
+                </table>        
+                <button class="btn btn-primary" type="submit">Submit</button> 
+            </form>
+        <br />                     
+        </article>
+    </section>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}

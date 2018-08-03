@@ -1,0 +1,124 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">Task 1</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            <p class="centr" id="tasktitle">In this task your child will need to select the category for each object 
+            that is numbered.<br />When you have selected a category, press submit and you will see your results.
+            <br /></p>
+            <br />
+            <form action="{{base}}/t1complete" method="post">
+                <p class="question">1.<img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q1" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q1" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>
+
+                <p class="question">2.<img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:128px;height:128px;"></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q2" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q2" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">3.<img src="https://openclipart.org/image/800px/svg_to_png/12985/nicubunu-Banana.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q3" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q3" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">4.<img src="https://www.goodfreephotos.com/albums/vector-images/shiny-strawberry-vector-graphic.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q4" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q4" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">5.<img src="https://openclipart.org/image/2400px/svg_to_png/169941/Simple-Teddy-Bear.png" style="width:128px;height:96px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q5" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q5" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">6.<img src="https://www.goodfreephotos.com/albums/vector-images/corgi-dog-vector-clipart.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q6" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q6" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">7.<img src="https://openclipart.org/image/2400px/svg_to_png/159499/Rubber-Duck.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q7" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q7" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">8.<img src="http://res.freestockphotos.biz/pictures/11/11409-illustration-of-a-pineapple-pv.png" style="width:64px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q8" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q8" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>        
+
+                <p class="question">9.<img src="http://res.freestockphotos.biz/pictures/14/14483-illustration-of-an-orange-pv.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q9" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q9" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table        
+
+                <p class="question">10.<img src="https://openclipart.org/image/2400px/svg_to_png/22293/StudioFibonacci-Cartoon-rhino.png" style="width:128px;height:128px;" /></p>        
+                <table>
+                    <tr>
+                        <ul class="answers">            
+                            <td><label for="q1a"><img src="https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png" style="width:64px;height:64px;" /><input type="radio" name="q10" value="a" id="q1a"></label><br/>              
+                            <td><label for="q1b"><img src="http://res.freestockphotos.biz/pictures/11/11461-illustration-of-a-red-apple-pv.png" style="width:64px;height:64px;" /><input type="radio" name="q10" value="b" id="q1b"></label><br/>            
+                        </ul>        
+                    </tr>
+                </table>   
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        <br />                     
+        </article>
+    </section>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}

@@ -1,0 +1,34 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">{{context.user.login}}'s Profile</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            {% if context.haspatient %}
+                <p>
+                Welcome {{context.user.login}}! This is your profile page where you can see your progress in your tasks. This will help you to keep track
+                of what you have achieved and what you can improve. 
+                </p>
+            {% endif %}
+            {% if context.hastherapist %}
+                <p>
+                Welcome {{context.user.login}}! This is your profile page where you can see a list of your patients as well as having access to their
+                progress to see how they are doing in their practice of tasks.
+                </p>
+            {% endif %}
+            {% if context.hasadmin %}
+                <p>Welcome admin {{context.user.login}}.</p>
+            {% endif %}
+
+            <form method="post" action="#"><input name="getprogress" type="submit" value="Get Progress"></form>
+        </article>
+    </section>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}

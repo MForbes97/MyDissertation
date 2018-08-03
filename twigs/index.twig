@@ -1,36 +1,39 @@
 {% extends 'page.twig' %}
 
 {% block onload %}
-    $('#alert').on('click', function(){
-        bootbox.alert('Hello World')
-    })
+    {% if not context.hasuser %}
+        $('#tasks').on('click', function(){
+            bootbox.alert('Please Log In')
+        })
+    {% endif %}
 {% endblock onload %}
 
 {% block header %}
     <section class="col-md-12">
-        <h1 class="cntr">Header</h1>
+        <h1 class="cntr">Home</h1>
     </section>
 {% endblock header %}
 
 {% block main %}
     <section class="row">
-        <aside class="col">
-            <p>Left</p>
-        </aside>
-        <article class="col-md-8">
-            <div class="jumbotron">
-                This is the middle column
+        <article class="col-md-8" id="homebox">
+            <div class="jumbotron" id="homeboxtext">
+                <p>From here you can navigate to different areas of the website using the buttons below or the navigation bar at the top of the 
+                page.</p><br />
+                <p>Currently you will need to contact your speech therapist or the website admin to create an account for you while this site is being perfected.</p>
+                {% if context.hasuser %}
+                    <a href="{{base}}/tasks"> {# Allows the 'Please Log In' text box to pop up without diverting to the tasks page when there is no user logged in #}
+                {% endif %}
+                <button id="tasks" class="btn btn-large btn-info" type="button">Tasks</button></a>
+                <a href="{{base}}/about"><button id="about" class="btn btn-large btn-info" type="button">About</button></a>
+                <a href="{{base}}/contact"><button id="contact" class="btn btn-large btn-info" type="button">Contact</button></a>
+                {% if not context.hasuser %}
+                    <a href="{{base}}/login"><button id="login" class="btn btn-large btn-info" type="button">Login</button></a>
+                {% endif %}
             </div>
-            <button id="alert" class="btn btn-large btn-info" type="button">Alert</button>
         </article>
-        <aside id="rightbar" class="col">
-            <p>Right</p>
-        </aside>
     </section>
 {% endblock main %}
 
 {% block footer %}
-    <section class="col-md-12">
-        <p class="cntr">Footer</p>
-    </section>
 {% endblock footer %}

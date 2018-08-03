@@ -1,0 +1,26 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">Task 2</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            <div id="explain">
+                <p class="centr" id="tasktitle">In this task your child will need to identify the different parts of 
+                the picture.<br />E.g. If there is a picture of a big blue bear, your child will
+                need to select the boxes that indicate the fact the bear is big, blue and that it is a bear.<br />When your child has selected 
+                all 3 categories for each picture, press submit and you will see your results.<br /></p>
+            </div>
+            <form action="{{base}}/t2q1" method="get">
+                <button class="btn btn-primary" type="submit">Start Task</button> 
+            </form>
+        </article>
+    </section>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}

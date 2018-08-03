@@ -1,0 +1,105 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">TASK 5</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            <p class="centr" id="tasktitle">In this task your child will need to identify how many syllables there are in each word/picture 
+            presented. For example if there is a word "food", a word "baby" and a word "banana", your child would need to identify that the first 
+            has 1 syllable, the second has 2 and the third has 3.</p>
+            <form action="{{base}}/t5complete" method="post">
+                <table class="table">
+                    <tr>       
+                        <th><p class="question">1. HAT <img src="https://openclipart.org/image/2400px/svg_to_png/180144/Ale-Hat.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5a" value="a" id="q5a"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5a" value="a" id="q5a"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5a" value="a" id="q5a"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>  
+                    </tr> 
+                    <tr>
+                        <th><p class="question">2. TRAIN <img src="https://openclipart.org/image/2400px/svg_to_png/18947/mbs-ICE-Train.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5b" value="a" id="q5b"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5b" value="a" id="q5b"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5b" value="a" id="q5b"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>
+                    </tr>
+                    <tr>       
+                        <th><p class="question">3. LION <img src="https://openclipart.org/image/2400px/svg_to_png/297980/LION-male.png" style="width:180px;height:160px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5c" value="a" id="q5c"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5c" value="a" id="q5c"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5c" value="a" id="q5c"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>  
+                    </tr>
+                    <tr>       
+                        <th><p class="question">4. TABLE <img src="https://openclipart.org/image/2400px/svg_to_png/214557/Tisch.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5d" value="a" id="q5d"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5d" value="a" id="q5d"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5d" value="a" id="q5d"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>   
+                    </tr>
+                    <tr>       
+                        <th><p class="question">5. BANANA <img src="https://openclipart.org/image/800px/svg_to_png/12985/nicubunu-Banana.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5e" value="a" id="q5e"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5e" value="a" id="q5e"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5e" value="a" id="q5e"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>   
+                    </tr>
+                    <tr>       
+                        <th><p class="question">6. LADYBIRD <img src="https://openclipart.org/image/2400px/svg_to_png/220578/1434051260.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5f" value="a" id="q5f"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5f" value="a" id="q5f"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5f" value="a" id="q5f"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>  
+                    </tr>
+                    <tr>       
+                        <th><p class="question">7. BOOK <img src="https://openclipart.org/image/2400px/svg_to_png/256974/colorbooknoshadow.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5g" value="a" id="q5g"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5g" value="a" id="q5g"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5g" value="a" id="q5g"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>  
+                    </tr>
+                    <tr>       
+                        <th><p class="question">8. CROCODILE <img src="https://openclipart.org/image/2400px/svg_to_png/215745/Krokodil-coloured.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5h" value="a" id="q5h"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5h" value="a" id="q5h"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5h" value="a" id="q5h"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>  
+                    </tr>
+                    <tr>       
+                        <th><p class="question">9. SCOOTER <img src="https://openclipart.org/image/2400px/svg_to_png/193710/1400991164.png" style="width:180px;height:128px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5i" value="a" id="q5i"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5i" value="a" id="q5i"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5i" value="a" id="q5i"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>   
+                    </tr>
+                    <tr>       
+                        <th><p class="question">10. RADIO <img src="https://openclipart.org/image/800px/svg_to_png/18993/AJ-simple-radio.png" style="width:180px;height:160px;" /></p>        
+                        <ul class="answers">           
+                            <td><input type="radio" name="q5j" value="a" id="q5j"><div id="task5circle"></div>
+                            <td><input type="radio" name="q5j" value="a" id="q5j"><div id="task5circle"></div><div id="task5circle"></div>
+                            <td><input type="radio" name="q5j" value="a" id="q5j"><div id="task5circle"></div><div id="task5circle"></div><div id="task5circle"></div>
+                        </ul>   
+                    </tr>
+                </table>     
+                <button name="submit" class="btn btn-primary" type="submit">Submit</button>
+            </form>        
+        </article>
+    </section>
+{% endblock main %} 
+
+{% block footer %}
+{% endblock footer %}

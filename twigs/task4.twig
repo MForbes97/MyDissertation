@@ -1,0 +1,58 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">TASK 4</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            <p class="centr" id="tasktitle">In this task your child will need to identify what is happening and to who. For example there will be
+            a picture of a person doing an action and an option for he/she as well as an option out of a few different actions they are performing.</p>
+            <form action="{{base}}/t4complete" method="post">
+                <table class="table">
+                    <tr>       
+                        <th><p class="question">1.</p>        
+                        <ul class="answers">           
+                            <td><label for="q1a"><img id="imagea2" src="https://openclipart.org/image/2400px/svg_to_png/284336/publicdomainq-0004072orrvdg.png" style="width:128px;height:128px;" /><br/>
+                            <td><input type="radio" name="q4a" value="a" id="q4a"><img id="imagea2" src="https://openclipart.org/image/800px/svg_to_png/14625/nicubunu-Stickman-05.png" style="width:128px;height:128px;" /><img id="imagea2" src="https://openclipart.org/image/800px/svg_to_png/14631/nicubunu-Stickman-08.png" style="width:128px;height:128px;" /><input type="radio" name="q4a" value="a" id="q4a">
+                        </ul>  
+                    </tr> 
+                    <tr>
+                        <th><p class="question">2.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="https://www.goodfreephotos.com/albums/vector-images/sleeping-kitty-vector-clipart.png" style="width:128px;height:128px;" /><br/>           
+                            <td><input type="radio" name="q4b" value="a" id="q4b"><img id="imagea2" src="https://openclipart.org/image/2400px/svg_to_png/14627/nicubunu-Stickman-06.png" style="width:128px;height:128px;" /><img id="imagea2" src="http://res.freestockphotos.biz/pictures/15/15601-illustration-of-a-dancing-cartoon-blue-man-pv.png" style="width:128px;height:128px;" /><input type="radio" name="q4b" value="a" id="q4b">
+                    </tr>
+                    <tr>       
+                        <th><p class="question">3.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="https://www.publicdomainpictures.net/pictures/80000/nahled/happy-man-waving-clipart.jpg" style="width:128px;height:128px;" /><br/>            
+                            <td><input type="radio" name="q4c" value="a" id="q4c"><img id="imagea2" src="http://res.freestockphotos.biz/pictures/15/15584-illustration-of-a-dancing-cartoon-blue-man-pv.png" style="width:128px;height:128px;" /><img id="imagea2" src="https://openclipart.org/image/800px/svg_to_png/14631/nicubunu-Stickman-08.png" style="width:128px;height:128px;" /><input type="radio" name="q4c" value="a" id="q4c">
+                        </ul>   
+                    </tr>
+                    <tr>       
+                        <th><p class="question">4.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="https://openclipart.org/image/2400px/svg_to_png/171801/darla.png" style="width:128px;height:128px;" /><br/>            
+                            <td><input type="radio" name="q4d" value="a" id="q4d"><img id="imagea2" src="https://openclipart.org/image/2400px/svg_to_png/14627/nicubunu-Stickman-06.png" style="width:128px;height:128px;" /><img id="imagea2" src="https://openclipart.org/image/800px/svg_to_png/14625/nicubunu-Stickman-05.png" style="width:128px;height:128px;" /><input type="radio" name="q4d" value="a" id="q4d">
+                        </ul>   
+                    </tr>
+                    <tr>       
+                        <th><p class="question">5.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="https://openclipart.org/image/2400px/svg_to_png/204130/Jumping-Girl.png" style="width:128px;height:128px;" /><br/>            
+                            <td><input type="radio" name="q4e" value="a" id="q4e"><img id="imagea2" src="http://res.freestockphotos.biz/pictures/15/15601-illustration-of-a-dancing-cartoon-blue-man-pv.png" style="width:128px;height:128px;" /><img id="imagea2" src="http://res.freestockphotos.biz/pictures/15/15584-illustration-of-a-dancing-cartoon-blue-man-pv.png" style="width:128px;height:128px;" /><input type="radio" name="q4e" value="a" id="q4e">
+                        </ul>   
+                    </tr>
+                </table>     
+                <button name="submit" class="btn btn-primary" type="submit">Submit</button>
+            </form>        
+        </article>
+    </section>
+{% endblock main %} 
+
+{% block footer %}
+{% endblock footer %}

@@ -13,7 +13,22 @@
     class Context extends \Framework\Context
     {
 /**
- * Any functions that you need to be available through context.
+ * Do we have a logged in admin user?
+ *
+ * @return boolean
  */
+public function haspatient()
+{
+    return $this->hasuser() && $this->user()->ispatient();
+}
+/**
+* Do we have a logged in developer user?
+*
+* @return boolean
+*/
+public function hastherapist()
+{
+    return $this->hasuser() && $this->user()->istherapist();
+}
     }
 ?>

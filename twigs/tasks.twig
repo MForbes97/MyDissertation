@@ -1,0 +1,27 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">TASKS</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+        <section class="row">
+            <article class="ml-auto col-md-8 mr-auto" id="homebox">
+                <p class="centr" id="tasktitle">This is where your child will do their speech and language tasks. <br /> 
+                Please select a task from the list below. <br /> These tasks can also be done interactively with your child's toys. <br /> 
+                These tasks are intended to be completed with an adult's help.</p><br />
+                <div class="jumbotron" id="homeboxtext">
+                    <a href="{{base}}/task1"><button id="task1" class="btn btn-large btn-info" type="button">Task 1</button></a>
+                    <a href="{{base}}/task2"><button id="task2" class="btn btn-large btn-info" type="button">Task 2</button></a>
+                    <a href="{{base}}/task3"><button id="task3" class="btn btn-large btn-info" type="button">Task 3</button></a>
+                    <a href="{{base}}/task4"><button id="task4" class="btn btn-large btn-info" type="button">Task 4</button></a>
+                    <a href="{{base}}/task5"><button id="task5" class="btn btn-large btn-info" type="button">Task 5</button></a>
+                </div>
+            </article>
+        </section>
+{% endblock main %}
+
+{% block footer %}
+{% endblock footer %}

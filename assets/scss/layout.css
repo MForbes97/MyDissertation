@@ -1,0 +1,151 @@
+header {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    min-width: 50%;
+}
+
+body {
+    font-family: sans-serif;
+    min-width: 50%;
+    background-image: url(http://free-illustrations-ls01.gatag.net/images/lgi01a201405131900.jpg);
+    background-size: 100%;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.delb, .noconfirm {
+    color: red;
+}
+
+.actb,.admb,.editb,.delb,.devb,.reqb,.rdob,.disb {
+    cursor: pointer;
+}
+
+#homebox {
+    position: fixed;
+    left: 33.3333333333%;
+    max-width: 33.3333333333%;
+    min-width: 300px;
+}
+
+#homeboxtext {
+    text-align: center;
+}
+
+#registerbox {
+    text-align: center;
+}
+
+#error404 {
+    position: relative;
+    left: 42%;
+}
+
+#error403 {
+    position: relative;
+    left: 44.5%;
+}
+
+#error401 {
+    position: relative;
+    left: 43%;
+}
+
+#errorboxtext {
+    text-align: center;
+}
+
+#tasktitle {
+    text-align: center;
+}
+
+#q1arb {
+    display: inline;
+}
+
+#q1brb {
+    display: inline;
+}
+
+#imageq {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#imageq2 {
+    border: 1px solid black;
+    padding: 20%;
+    background-color: white;
+}
+
+#imagea {
+    border: 1px solid black;
+    padding: 25%;
+    background-color: white;
+}
+
+#imagea2 {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#imagea3 {
+    border: 1px solid black;
+    padding: 5%;
+    background-color: white;    
+}
+
+.ml-auto {
+    background-color: silver;
+}
+
+#task3box {
+	width: 40px;
+    height: 40px;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    margin-left: 5px;
+}
+
+#task3sidebox {
+	width: 50px;
+    height: 50px;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    margin-left: 5px;
+}
+
+#circle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: black;
+    margin-left: 5px;
+}
+
+#sidecircle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: black;
+    margin-left: -116px;
+    margin-top: 5px;
+}
+
+#task5circle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: red;
+    margin-left: 40px;
+}

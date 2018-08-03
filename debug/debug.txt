@@ -1,0 +1,1089 @@
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(7) "profile"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(7) "Profile"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "tasks"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "Tasks"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "5"
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(8) "patients"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(8) "Patients"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "4"
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(8) "progress"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(8) "Progress"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "4"
+  }
+}
+string(19) "2018-02-09 19:28:55"
+string(19) "2018-02-09 19:32:54"
+string(19) "2018-02-09 19:33:08"
+string(19) "2018-02-09 19:37:06"
+string(19) "2018-02-09 19:38:21"
+string(19) "2018-02-09 20:55:58"
+string(19) "2018-02-09 20:56:18"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(12) "registration"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(12) "registration"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+string(19) "2018-02-15 13:54:16"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "registered"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(10) "registered"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+string(19) "2018-02-16 21:06:44"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "task1"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "task1"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(3) "Now"
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(5) "Never"
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-02-16 21:15:52"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "task2"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "task2"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(3) "Now"
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(5) "Never"
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-02-16 21:16:42"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "task3"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "task3"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "task4"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "task4"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(5) "task5"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(5) "task5"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+string(19) "2018-02-16 21:38:27"
+string(19) "2018-03-06 15:36:25"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "test"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "test"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(12) "testdatabase"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(12) "testdatabase"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(12) "testdatabase"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(12) "testdatabase"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(6) "submit"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(6) "submit"
+  ["active"]=>
+  string(1) "0"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q1"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q1"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q2"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q2"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "0"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q3"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q3"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+string(19) "2018-03-14 18:11:59"
+string(19) "2018-03-14 18:12:18"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q4"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q4"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-03-14 18:13:12"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q5"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q5"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-03-14 18:13:30"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(4) "t2q6"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(4) "t2q6"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-03-14 18:13:47"
+string(19) "2018-03-14 18:14:43"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "t2complete"
+  ["kind"]=>
+  string(1) "1"
+  ["source"]=>
+  string(10) "t2complete"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-03-14 18:17:00"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "t1complete"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(10) "t1complete"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(1) "1"
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(1) "6"
+  }
+}
+string(19) "2018-04-28 10:17:01"
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "t3complete"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(10) "t3complete"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "t4complete"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(10) "t4complete"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+array(12) {
+  ["op"]=>
+  string(7) "addpage"
+  ["name"]=>
+  string(10) "t5complete"
+  ["kind"]=>
+  string(1) "2"
+  ["source"]=>
+  string(10) "t5complete"
+  ["active"]=>
+  string(1) "1"
+  ["login"]=>
+  string(1) "1"
+  ["mobile"]=>
+  string(1) "0"
+  ["start"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["end"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["otherinfo"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["context"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+  ["role"]=>
+  array(1) {
+    [0]=>
+    string(0) ""
+  }
+}
+string(19) "2018-04-30 07:33:51"
+string(19) "2018-04-30 07:33:58"

@@ -1,0 +1,51 @@
+{% extends 'page.twig' %}
+
+{% block header %}
+    <article class="col-md-12">
+        <h1 class="cntr">TASK 3</h1>
+    </article>
+{% endblock header %}
+
+{% block main %}
+    <section class="row">
+        <article class="ml-auto col-md-8 mr-auto">
+            <p class="centr" id="tasktitle">In this task your child will need to identify where the ball is in relation to the box using the images
+            along the side of each picture. For example if there is a picture of a ball on top of a box then your child
+            will need to select the image that represents a ball on a box.</p>
+            <form action="{{base}}/t3complete" method="post">
+                <table class="table">
+                    <tr>       
+                        <th><p class="question">1.</p>        
+                        <ul class="answers">           
+                            <td><label for="q1a"><img id="imagea2" src="http://fce-study.netdna-ssl.com/images/upload-flashcards/942327/692413_m.jpg" style="width:128px;height:128px;" /><br/>
+                            <td><div id="task3box"></div><div id="circle"></div><input type="radio" name="q3a" value="a" id="q3a"></label>
+                            <td><div id="circle"></div><div id="task3box"></div><input type="radio" name="q3a" value="a" id="q3a"></label>
+                            <td><div id="task3sidebox"></div><input type="radio" name="q3a" value="a" id="q3a"></label><td><div id="sidecircle"></div>
+                        </ul>  
+                    </tr> 
+                    <tr>
+                        <th><p class="question">2.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea2" src="http://www.cram.com/images/upload-flashcards/942327/692410_m.jpg" style="width:128px;height:128px;" /><br/>           
+                            <td><div id="task3box"></div><div id="circle"></div><input type="radio" name="q3b" value="a" id="q3b"></label>
+                            <td><div id="circle"></div><div id="task3box"></div><input type="radio" name="q3b" value="a" id="q3b"></label>
+                            <td><div id="task3sidebox"></div><input type="radio" name="q3b" value="a" id="q3b"></label><td><div id="sidecircle"></div>
+                    </tr>
+                    <tr>       
+                        <th><p class="question">3.</p>        
+                        <ul class="answers">            
+                            <td><label for="q1a"><img id="imagea3" src="http://fce-study.netdna-ssl.com/2/images/upload-flashcards/75/35/78/9753578_m.jpg" style="width:128px;height:128px;" /><br/>            
+                            <td><div id="task3box"></div><div id="circle"></div><input type="radio" name="q3c" value="a" id="q3c"></label>
+                            <td><div id="circle"></div><div id="task3box"></div><input type="radio" name="q3c" value="a" id="q3c"></label>
+                            <td><div id="task3sidebox"></div><input type="radio" name="q3c" value="a" id="q3c"></label><td><div id="sidecircle"></div>
+                        </ul>   
+                    </tr>
+                </table>     
+                <button name="submit" class="btn btn-primary" type="submit">Submit</button>
+            </form>        
+        </article>
+    </section>
+{% endblock main %} 
+
+{% block footer %}
+{% endblock footer %}

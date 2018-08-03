@@ -60,6 +60,24 @@
             return is_object($this->hasrole('Site', 'Developer'));
         }
 /**
+ * Is this user a developer?
+ *
+ * @return boolean
+ */
+        public function ispatient()
+        {
+            return is_object($this->hasrole('Site', 'Patient'));
+        }
+/**
+ * Is this user a developer?
+ *
+ * @return boolean
+ */
+        public function istherapist()
+        {
+            return is_object($this->hasrole('Site', 'Therapist'));
+        }
+/**
  * Set the user's password
  *
  * @param string	$pw	The password
